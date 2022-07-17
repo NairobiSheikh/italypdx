@@ -1,0 +1,38 @@
+*, *::before, *::after {
+  margin:  0;
+  padding: 0;
+  box-sizing: border-box;
+  outline-offset: 5px;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar { width: 5px; }
+
+::-webkit-scrollbar-track { background:#000; }
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: #000;
+}
+
+::-webkit-scrollbar-thumb:hover { background: #000; }
+
+/** body here and have the font-famliy and all the is used on all elements **/
+/* body{
+
+} */
+
+li { list-style: none; }
+
+a {
+  font: inherit;
+  text-decoration: none;
+}
+
+img, svg, ion-icon, span, button { display: block; }
+
+/** Header Content**/
