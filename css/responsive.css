@@ -1,0 +1,19 @@
+/** Header **/
+@media (min-width: 1024px) {
+  .navbar {
+    padding: 9px 30px;
+  }
+  .navbar-nav {
+    position: static;
+    opacity: 1;
+    visibility: visible;
+    width:  auto;
+    height: auto;
+    transform: translateY(0);
+    padding: 0;
+    flex-direction: row;
+    gap: 50px;
+    pointer-events: all;
+  }
+  
+}
